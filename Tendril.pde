@@ -8,7 +8,7 @@ public class Tendril {
         myX = x;
         myY = y;
         myNumSegments = len;
-        pigment = lineColor;
+        pigment = tone;
     }
     public void show() {
         int startX = myX;
