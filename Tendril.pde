@@ -13,7 +13,7 @@ public class Tendril {
     public void show() {
         int startX = myX;
         int startY = myY;
-        stroke((int)(Math.random()*255),0,0);
+        stroke(pigment);
         for (int i = 0; i < myNumSegments; i++) {
             myAngle += Math.random() * 0.4 - 0.2;
             int endX = startX + (int)(Math.cos(myAngle) * SEG_LENGTH);
